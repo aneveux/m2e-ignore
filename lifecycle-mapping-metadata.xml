@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+  <pluginExecutions>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <!-- The groupId and artifactId **for the maven plugin** -->
+        <groupId>org.sample.maven</groupId>
+        <artifactId>some-maven-plugin</artifactId>
+        <!-- This is OSGi style:
+             square brackets means "inclusive"
+             parenthesis means "exclusive" 
+             [a,b) means "from version a inclusive to version b exclusive"
+             [a,) means "from version a inclusive onwards" -->
+        <versionRange>[0.0.1,)</versionRange>
+        <goals>
+          <!-- Add the goals of the maven plugin -->
+          <!--
+          <goal>populate</goal>
+          -->
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <!-- This is where you tell m2e what to do 
+             with the aforementioned goals -->
+        <ignore />
+      </action>
+    </pluginExecution>
+  </pluginExecutions>
+</lifecycleMappingMetadata>
