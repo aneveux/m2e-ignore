@@ -26,8 +26,8 @@ lifecycle-mapping-metadata.xml
 This file is here to tell m2e what to do with a given maven plugin's goals
 Follow the comments embedded in the file.
 
-Note that you can copy the &lt;pluginExecution&gt; tag to address several plugins at once.
-Each &lt;pluginExecution&gt; can similarly address several goals for a given plugin.
+Note that you can copy the <code>&lt;pluginExecution&gt;</code> tag to address several plugins at once.
+Each <code>&lt;pluginExecution&gt;</code> can similarly address several goals for a given plugin.
 
 plugin.xml
 ----------
